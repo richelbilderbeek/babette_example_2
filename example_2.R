@@ -10,7 +10,7 @@ save_nexus_as_fasta(
 )
 
 inference_results <- bbt_run(
-  fasta_filename = fasta_filename
+  fasta_filename = fasta_filename,
   mrca_prior = create_mrca_prior(
     taxa_names = get_taxa_names(fasta_filename),
     alignment_id = get_alignment_id(fasta_filename),
