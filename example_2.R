@@ -1,4 +1,4 @@
-# babette example 1: default settings
+# babette example 2: fixed crown age
 
 library(babette)
 
