@@ -14,9 +14,6 @@ r_github_packages:
   - Giappo/mbd
   - jimhester/covr
   - jimhester/lintr
-  - ropensci/beautier
-  - ropensci/beastier
-  - ropensci/mauricer
   - ropensci/babette
   - KlausVigo/phangorn
   - ropensci/spelling
