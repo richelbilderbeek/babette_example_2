@@ -2,13 +2,6 @@ language: r
 dist: bionic
 cache: packages
 
-r_github_packages:
-  - Giappo/mbd
-  - jimhester/covr
-  - jimhester/lintr
-  - ropensci/babette
-  - ropensci/spelling
-
 bioc_packages:
   - ggtree
 

@@ -24,11 +24,7 @@ environment:
 build_script:
   - # travis-tool.sh install magrittr
   - travis-tool.sh install_deps
-  - travis-tool.sh install_github ropensci/tracerer
-  - travis-tool.sh install_github ropensci/beautier
-  - travis-tool.sh install_github ropensci/beastier
-  - travis-tool.sh install_github ropensci/mauricer
-  - travis-tool.sh install_github ropensci/babette
+  - travis-tool.sh install_r babette
   - Rscript -e "beastier::install_beast2()"
 
 test_script:
