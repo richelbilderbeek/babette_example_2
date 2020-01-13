@@ -2,9 +2,6 @@ language: r
 dist: bionic
 cache: packages
 
-bioc_packages:
-  - ggtree
-
 before_install:
   - echo $TRAVIS_R_VERSION_STRING
   # ImageMagick
