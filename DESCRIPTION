@@ -12,5 +12,7 @@ Description: A 'babette' example.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: babette
+Imports: 
+    babette,
+    testthat
 
